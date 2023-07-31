@@ -1,0 +1,414 @@
+/* -------------------------------------------------------------------------- */
+/*                               HEADER SECTION                               */
+/* -------------------------------------------------------------------------- */
+.header {
+  background-color: rgba(251, 251, 253, 0.8);
+  width: 100%;
+  height: 4.8rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav:hover {
+  cursor: pointer;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.2rem;
+}
+
+.main-nav-link {
+  font-family: "apple-font", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(29, 29, 31);
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+.nav-icon {
+  color: rgb(29, 29, 31);
+  height: 1.6rem;
+  width: 1.6rem;
+  padding: 0 0.8rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               RIBBON SECTION                               */
+/* -------------------------------------------------------------------------- */
+
+.ribbon {
+  text-align: center;
+  text-justify: center;
+  padding-top: 5.8rem;
+}
+.ribbon-text {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: rgb(29, 29, 31);
+  padding: 1.2rem 0;
+}
+.ribbon-text > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #147ce5;
+}
+
+.ribbon-text > a:hover {
+  text-decoration: underline;
+  color: #147ce5;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                HERO SECTION                                */
+/* -------------------------------------------------------------------------- */
+
+.first-hero-part {
+  background-image: url(../images/products/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg);
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.second-hero-part {
+  background-image: url(../images/products/hero_iphone14_yellow__eun20sn4imi6_largetall.jpg);
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.second-hero-part > .headings > a > h2,
+.second-hero-part > .headings > a > h4 {
+  color: rgb(29, 29, 31);
+}
+
+.second-hero-part > .headings {
+  top: 4.5%;
+}
+
+.bg-video-messi {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+
+  position: relative;
+}
+
+.third-hero-part {
+  position: relative;
+}
+
+.program-time-messi {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #ccc;
+  padding: 2px;
+
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.program-time-messi:hover,
+.program-time-messi:active {
+  color: #fff;
+  text-decoration: underline solid 1.5px #fff;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SECTION PRODUCTS                              */
+/* -------------------------------------------------------------------------- */
+.products {
+  padding: 0 1rem;
+  gap: 5px;
+}
+
+.product-imgs-video {
+  position: relative;
+}
+
+.name-location {
+  bottom: 18% !important;
+  transform: translate(50%, 50%) !important;
+}
+
+.product-note {
+  font-size: 1.8rem;
+  color: #6e6e73;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                            SECTION IMAGE SLIDER                            */
+/* -------------------------------------------------------------------------- */
+.tv-programs {
+  position: relative;
+  margin-bottom: 3.6rem;
+}
+.slider-imgs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.movie-img {
+  width: 100%;
+}
+
+.main-movie-img {
+  position: relative;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1.1rem 2rem;
+  border-radius: 37px / 38px;
+  border: none;
+
+  position: absolute;
+  bottom: 6%;
+  left: 5%;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ccc;
+}
+
+.btn-link {
+  text-align: center;
+  justify-self: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 18px);
+  display: flex;
+
+  gap: 16px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #757575;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot--fill {
+  background-color: #333;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+/* .footer {
+  padding: 2rem 0;
+  background-color: #f5f5f7;
+}
+
+.footer > div {
+  max-width: 120rem;
+  margin-top: 3.6rem;
+  gap: 3.2rem;
+}
+.apple-products {
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  margin-bottom: 0.9rem;
+  margin-right: 2rem;
+  color: rgb(29, 29, 31);
+}
+
+.footer-list {
+  margin-bottom: 2rem;
+}
+.footer-list > li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(66, 66, 69);
+ 
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.footer-note {
+  font-size: 1rem;
+  color: rgb(66, 66, 69);
+}
+*/
+
+/* ------------------------------------- */
+
+.footer {
+  background-color: #f5f5f7;
+  font-family: calibri;
+  padding: 0 22px;
+  padding-bottom: 21px;
+  overflow: hidden;
+}
+
+.footer-content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  padding-top: 21px;
+  overflow: hidden;
+}
+
+.footer-col {
+  width: 20%;
+  float: left;
+}
+
+input {
+  display: none;
+}
+
+.footer-headings {
+  color: #333;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  background: #f2f2f2;
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+
+.product-list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.product-list li {
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.product-list a {
+  color: #555;
+  display: inline-block;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.product-list a:hover {
+  color: #333;
+}
+
+input:checked + .col-section .product-list {
+  transition: transform 0.5s ease;
+  visibility: visible;
+  position: static;
+  transform: none;
+}
+
+input:checked + .col-section h3::after {
+  transform: rotate(45deg) scale(1.08);
+}
+
+.footer-base {
+  padding-top: 34px;
+  padding-bottom: 21px;
+  color: #888;
+  font-size: 12px;
+}
+
+.footer-note {
+  margin-bottom: 7px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.footer-note > a {
+  text-decoration: none;
+  color: #147ce5;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.nowrap > a {
+  text-decoration: none;
+  color: #147ce5;
+}
+
+.footer-copyright {
+  margin-right: 30px;
+
+  margin-top: 3px;
+}
+
+.footer-legal-links a {
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+  padding-right: 12px;
+  display: inline-block;
+  margin-top: 3px;
+  white-space: nowrap;
+  color: #555;
+}
+
+.footer-legal-links a:last-child {
+  border-right: none;
+}
+
+.footer-legal-links a:hover {
+  color: #333;
+}

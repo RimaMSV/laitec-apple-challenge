@@ -1,0 +1,219 @@
+/* -------------------------------------------------------------------------- */
+/*                       MAX-WIDTH: 1200px (WIDE SCREEN)                      */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .product-name {
+    font-size: 3.2rem;
+  }
+  .product-subheading {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  .product-note {
+    font-size: 1.6rem;
+  }
+  .remove-icon {
+    display: none;
+  }
+
+  .footer-icon {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                       MAX-WIDTH: 992px ( MEDIUM SCREEN)                      */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+  .main-nav-list {
+    gap: 1.2rem;
+  }
+
+  .first-hero-part {
+    background-image: url(../images/products/hero_Alternative--iphone14pro_spring__9xo85pm6sbmm_medium.jpg);
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    width: 100%;
+    height: 80vh;
+    position: relative;
+  }
+  .headings {
+    top: 6%;
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+  .apple-icon {
+    display: none;
+  }
+
+  .primary-heading {
+    font-size: 4.8rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .subheading {
+    margin-bottom: 0;
+  }
+
+  .program-time-messi {
+    font-size: 1.4rem;
+  }
+
+  .product-name {
+    font-size: 2.5rem;
+  }
+
+  .product-subheading {
+    font-size: 1.9rem;
+    line-height: 2.8rem;
+  }
+
+  .product-note {
+    font-size: 1.5rem;
+  }
+
+  .cta-links {
+    gap: 0;
+  }
+
+  .cta {
+    font-size: 1.6rem;
+  }
+
+  .footer-icon {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                          MAX-WIDTH: 768px (TABLET)                         */
+/* -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: rgba(222, 222, 222, 0.8);
+  }
+  .remove-nav-list {
+    display: none;
+  }
+
+  .remove-icon {
+    display: inline-block;
+  }
+  .remove-logo {
+    display: none;
+  }
+
+  .apple-icon {
+    display: inline-block;
+    margin-right: 50.5rem;
+  }
+
+  .nav-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .ribbon-text {
+    font-size: 1.4rem;
+  }
+  /* ------Hero Section------ */
+
+  .headings {
+    top: 8.3%;
+  }
+
+  .program-time-messi {
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  /*-------Products Section------- */
+
+  .product-name {
+    font-size: 2.3rem;
+  }
+
+  .product-subheading {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .cta {
+    font-size: 1.4rem;
+    padding: 0.3rem;
+  }
+
+  .product-note {
+    font-size: 1.4rem;
+  }
+
+  /* --------TV Programs------------ */
+
+  .btn {
+    font-size: 1.3rem;
+    padding: 1rem 1.3rem;
+  }
+
+  .btn-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* --------footer------------ */
+
+  .footer {
+    padding: 0 16px;
+    padding-bottom: 21px;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .item {
+    border-bottom: 1px solid #d6d6d6;
+  }
+
+  .footer-headings {
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  h3::after {
+    content: "+";
+    float: right;
+    text-decoration: rtl;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-right: 8px;
+    transition: transform 0.3s all;
+  }
+
+  .product-list {
+    visibility: hidden;
+    position: absolute;
+    transform: translateY(-100px);
+    z-index: 1;
+    padding: 5px 0 16px 0;
+  }
+
+  .product-list li {
+    margin: 0;
+  }
+
+  .product-list a {
+    display: block;
+    padding: 6px 14px;
+  }
+
+  .footer-col {
+    overflow: hidden;
+  }
+  .item-padding-top {
+    padding-top: 24px;
+  }
+}
